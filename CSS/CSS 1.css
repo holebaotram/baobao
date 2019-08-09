@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: lora;
+  src: url(../font/Lora-RegularItalic.ttf);
+}
+
+.wow:first-child {
+      visibility: hidden;
+    }
+
+.outer{ width:1280px;
+       height:439px;
+	    background:#FB060A;
+		margin:0 auto;}
+		
+.header{width:1280px;
+       height:801px;
+	   background:url(../IMG/De-01_01.gif)}
+	   
+	   
+	   
+/*MENU*/
+ 
+ 	   
+.menu{display:flex;
+	  justify-content:center; }
+	  
+.menu ul li{list-style:none;
+			 float:left;
+			 padding:20px 20px}
+
+.menu ul li a{text-decoration:none;
+              color:#FFFFFF;}
+
+.menu ul li a:hover{color:#FBE202}
+
+
+.khung_1{width:218px;
+       height:31px;	  
+	   margin:20px;
+	   border:2px #FFFFFF solid;
+	   border-radius:30px;
+	   padding-top:12px;
+	   color:#FFFFFF
+	   }
+			  
+.khung_1 a{text-decoration:none;
+              color:#FFFFFF;}
+ .khung_1 a:hover{color:#FFFD00 }
+	 
+	
+	
+/*INSU*/		
+.insu{ width:1280px;
+       height:440px;
+	   background:#3165D9;
+	   display: flex;
+        justify-content: center;}
+
+.insu_1{width:212px;
+        height:279px;
+		background:#4675DD;
+		float: left;
+		margin-left:10px;
+		margin-top:70px;
+		color:#FFFFFF;
+		}
+		
+.insu_1 img {margin-top: 10px}	
+.insu_1 a{text-decoration:none;color:#FFFFFF}
+.insu_1 a:hover{color:#FFDD00}
+.insu_1:hover{ -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+          
+		
+		
+	
+		 
+/*COMER*/		 
+.comer{width:1280px;
+       height:571px;
+	   background:#FFFFFF}
+	   
+.comer_1{width:521px;
+         height:451px;
+		 background:#FFFFFF;
+		 float:left;
+		 padding-top:120px;
+		 padding-left: 50px;
+		 font-size:20px;
+		 
+		 }
+
+	  		 
+.khung_2{width:130px;
+       height:31px;	  
+	   margin:20px;
+	   border:2px #1B55DC solid;
+	   border-radius:30px;
+	   padding-top:12px;
+	  	}
+.khung_2 a{ text-decoration:none; color:#060606
+          }
+	   
+.khung_2:hover{ background:#FFBE00;
+                border:0px}
+	
+	   
+ 
+.comer_2{width:709px;
+         height:451px;
+		 background:#FFFFFF;
+		 float:right;
+		 padding-top:120px;
+		  transition:all 0.3s ease;}
+		 
+
+ .comer_2 img:hover{ -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8); }     
+
+		 
+/*SUPPORT*/		 
+.support{width:1280px;
+          height:324px;
+		  background:#FFFFFF;
+		  display: flex;
+          justify-content: center;}	
+		  	 
+.support_1{width:279px;
+           height:324px;
+		   background:#FFFFFF;
+		   float:left;
+		   margin-left:10px;}
+.pic_A{ width:80px;
+        height:324px;
+		float:left}		   
+.A{	 width:30px;
+     height:40px;
+	 border: 2px solid  #152CE0;
+	 margin-top: 100px;
+	 margin-left:30px;
+	
+	 }
+.pic_B{ margin-top:80px  }	
+      
+       
+
+/*NUMBER*/		   
+.number {width:1280px;
+      height:283px;
+	  background:url(../IMG/De-01_02.jpg);
+	  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+	 
+.column{width:150px;
+        height:100px;
+		font-size:60px;
+          color:#FFFFFF
+		}
+		
+.column p{font-size:10px;
+          color:#FFFFFF ;
+		  }
+	  	  
+	  
+
+	  
+
+/*HOW*/
+.how{width:1280px;
+     height:560px;
+	 background:#FFFFFF;}
+	 
+.how_1{ width:500px;
+        height:440px;
+		background:#FFFFFF;
+		float:left;
+		padding-top:120px;
+		padding-left:209px
+		}
+		
+.how_1 img:hover{ -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8); }     
+		
+		 
+.how_2{ width:521px;
+        height:480px;
+		background:#FFFFFF;
+		float:right;
+		font-size:20px;
+		padding-left:50px;
+		padding-top:80px}	
+/*PIC*/
+.pic {width:1280px;
+      height:180px;
+	  background:#DCD2D2;
+	  padding-top:100px
+	  }
+
+/*LOGO*/		
+.logo{ width:1280px;
+       height:300px;}
+	 
+	   
+/*KHUNGXANH*/
+.khungxanh{width:1280px;
+           height:485px;
+		   background:#0207FF;
+		  display: flex;
+  justify-content: center;
+  align-items: flex-end;}
+
+.lienhe{width:279px;
+        height:120px;
+		background:rgba(0,0,0,0.00);
+		float:left;
+		margin-left:10px;
+		
+		
+		}	  	 
+.lienhe p {color:#FFFFFF;
+           font-size:20px;
+		   bottom:0}
+
+
+/*footer*/
+.footer{width:1280px;
+        height:318px;
+		background:#050000;
+		 display:flex;
+	   justify-content:center
+		
+		}
+		
+	
+.footer h2{color:#FFED00	;
+          font-size:20px;
+		  margin-top:50px;}  	 
+		 
+.menu2{wight:1280px;
+      height:80px;
+	   display:flex;
+	   justify-content:center;
+	  align-items: baseline
+	   }
+	  
+.menu2 ul li{list-style:none;
+			 float:left;
+			 padding:0px 20px}
+
+.menu2 ul li a{text-decoration:none;
+              color:#FFFFFF;}
+
+.menu2 ul li a:hover{color:#FBE202}
+
+
+
+.tron{width:1280px;
+      height:50px;
+	   display:flex;
+	   justify-content:center }
+	  
+.onho{ width:50px;
+       height:50px;
+	   background:#FFFFFF;
+	   float:left;
+	   margin-left:10px;
+	   border-radius:50%;}
+	   
+.lienhecuoi{ width:1280px;
+             height:50px;
+			 
+			   display:flex;
+	   justify-content:center;
+	    margin-top:10px;
+		color:#FFFFFF}
+	   
+
+
+
+		 
